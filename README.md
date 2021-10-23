@@ -12,14 +12,14 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 
 ## Pré-requitos :white_check_mark: 
 * Instalar o [Nodejs](https://nodejs.org/en/)
-* Instalar o Cypress pela linha de comando:
-```
-npm install cypress
-```
 
 ## Como executar :rocket: 
 * Clone este repositório na sua máquina;
 * Abra no seu editor a pasta **lista_pratica**
+* Instalar o Cypress pela linha de comando:
+```
+npm install cypress
+```
 * Use o seguinte comando para abrir o Cypress e rodar os testes:
 ```
 ./node_modules/.bin/cypress open
