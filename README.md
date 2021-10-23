@@ -3,7 +3,7 @@
 # ListaCypress
 Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.com/pt-br/)
 
-## Testes realizados:
+## Testes realizados :clipboard: 
 * Verificação de idade correta;
 * Verificação de idade incorreta;
 * Preço do jogo na plataforma Xbox One;
@@ -15,7 +15,7 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 
 ## Como executar :rocket: 
 * Clone este repositório na sua máquina;
-* Abra no seu editor a pasta **lista_pratica**
+* Abra no seu editor a pasta **lista_pratica**;
 * Instalar o Cypress pela linha de comando:
 ```
 npm install cypress
