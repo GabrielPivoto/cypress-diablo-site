@@ -3,7 +3,7 @@
 # ListaCypress
 Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.com/pt-br/)
 
-## Testes realizados :clipboard: 
+## Testes realizados :pencil:  
 * Verificação de idade correta;
 * Verificação de idade incorreta;
 * Preço do jogo na plataforma Xbox One;
@@ -26,3 +26,8 @@ npm install cypress
 ./node_modules/.bin/cypress open
 ```
 
+## Relatório de testes :clipboard:
+* Para criar o relatório de testes headless, execute o seguinte comando:
+```
+./node_modules/.bin/cypress open --spec 'cypress/integration/lista_cypress/**/'
+```
