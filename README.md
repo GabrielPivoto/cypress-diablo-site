@@ -1,4 +1,4 @@
-<img align="right" width="300" height="200" src="https://img2.gratispng.com/20180427/wyw/kisspng-diablo-iii-reaper-of-souls-playstation-3-xbox-360-5ae3819fae2af8.0354813115248592957134.jpg">
+<img align="right" width="420" height="425" src="https://toppng.com/uploads/preview/linkedin-transparent-background-download-diablo-3-logo-11563000534crsxdtya7s.png">
 
 # ListaCypress
 
