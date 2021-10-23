@@ -8,6 +8,7 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 * Verificação de idade incorreta;
 * Preço do jogo na plataforma Xbox One;
 * Preço do jogo na plataforma PlayStation 4;
+* Teste da calculadora de habilidades do personagem;
 * Acesso ao vídeo de história do jogo.
 
 ## Pré-requitos :white_check_mark: 
