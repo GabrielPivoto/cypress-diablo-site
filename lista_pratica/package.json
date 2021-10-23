@@ -1,0 +1,15 @@
+{
+  "name": "lista_pratica",
+  "version": "1.0.0",
+  "description": "lista pratica do cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "inatel",
+  "license": "ISC"
+}
