@@ -3,6 +3,15 @@
 # ListaCypress
 Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.com/pt-br/)
 
+<h4 align="center"> 
+	Autores :pencil2:
+</h4>
+
+<p align="center">
+ <a href="https://github.com/DarlanAjlune">Darlan Borges Ajlune</a> •
+ <a href="https://github.com/GabrielPivoto">Gabriel Pivoto Ambrósio</a> 
+</p>
+
 ## Testes realizados :pencil:  
 * Verificação de idade correta;
 * Verificação de idade incorreta;
@@ -27,7 +36,15 @@ npm install cypress
 ```
 
 ## Relatório de testes :clipboard:
-* Para criar o relatório de testes headless, execute o seguinte comando:
+* Para exibir o relatório de testes no terminal, execute o seguinte comando:
 ```
-./node_modules/.bin/cypress open --spec 'cypress/integration/lista_cypress/**/'
+./node_modules/.bin/cypress run --spec 'cypress/integration/lista_cypress/**/'
+```
+* Para gerar o relatório pelo Mochawesome, instale a dependência pelo comando:
+```
+npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
+```
+* Em seguida, execute o seguinte comando para criar o relatório html:
+```
+npx marge mochawesome.json
 ```
