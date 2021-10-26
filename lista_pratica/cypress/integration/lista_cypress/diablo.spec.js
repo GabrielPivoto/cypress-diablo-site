@@ -3,7 +3,7 @@
 
 describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () => {
 
-    it.skip('Caso de teste: Colocar uma idade inadequada', () => {
+    it('Caso de teste: Colocar uma idade inadequada', () => {
         cy.visit('https://us.diablo3.com/pt-br/age?r=%2Fpt-br%2Fclass%2Fwizard%2F');
         cy.get('#day').select(31);
         cy.get('#month').select('Agosto');
@@ -13,7 +13,7 @@ describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () =
         
     })
 
-    it.skip('Caso de teste: Colocar uma idade adequada', () => {
+    it('Caso de teste: Colocar uma idade adequada', () => {
         cy.visit('https://us.diablo3.com/pt-br/age?r=%2Fpt-br%2Fclass%2Fwizard%2F');
         cy.get('#day').select(31);
         cy.get('#month').select('Agosto');
@@ -23,7 +23,7 @@ describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () =
         
     })
 
-    it.skip('Caso de teste: Testar o preço do jogo no Xbox', () => {
+    it('Caso de teste: Testar o preço do jogo no Xbox', () => {
         cy.visit('https://us.diablo3.com/pt-br/');
         cy.get('.menu-purchase > a > span').click();
         cy.get('.Button--xboxOne > .Button-link').click();
@@ -31,7 +31,7 @@ describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () =
     })
 
 
-    it.skip('Caso de teste: Testar o preço do jogo no PS4', () => {
+    it('Caso de teste: Testar o preço do jogo no PS4', () => {
         cy.visit('https://us.diablo3.com/pt-br/');
         cy.get('.menu-purchase > a > span').click();
         cy.get('.Button--ps4 > .Button-link').click();
@@ -39,7 +39,7 @@ describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () =
     })
 
 
-    it.skip('Caso de teste: Testar a calculadora de habilidades', () => {
+    it('Caso de teste: Testar a calculadora de habilidades', () => {
 
         cy.visit('https://us.diablo3.com/pt-br/calculator/follower');
         cy.get('#templar > .tiers > .tier-0 > .button-1 > .d3-icon > .frame').click();
