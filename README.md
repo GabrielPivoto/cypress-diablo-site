@@ -15,12 +15,11 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 #
 
 ## Sumário
-[Testes realizados](#Testes-realizados-:pencil:) • [Pré-Requisitos](#Pré-requitos-:white_check_mark:) • [Como executar](#Como-executar-:rocket:) • [Relatório de testes](#Relatório-de-testes-:clipboard:)
-</p>
+[Testes realizados](#Testes-realizados) • [Pré-Requisitos](#Pré-requisitos) • [Como executar](#Como-executar) • [Relatório de testes](#Relatórios)
 
 #
 
-## Testes realizados :pencil:  
+## Testes realizados :pencil: <a name="Testes-realizados"></a> 
 * Verificação de idade correta;
 * Verificação de idade incorreta;
 * Preço do jogo na plataforma Xbox One;
@@ -30,12 +29,12 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 
 #
 
-## Pré-requitos :white_check_mark: 
+## Pré-requitos :white_check_mark: <a name="Pré-requisitos"></a>
 * Instalar o [Nodejs](https://nodejs.org/en/)
 
 #
 
-## Como executar :rocket: 
+## Como executar :rocket: <a name="Como-executar"></a>
 * Clone este repositório na sua máquina;
 * Abra no seu editor a pasta **lista_pratica**;
 * Instalar o Cypress pela linha de comando:
@@ -51,7 +50,7 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 		```
 #
 
-## Relatório de testes :clipboard:
+## Relatório de testes :clipboard: <a name="Relatórios"></a>
 1. Para exibir o relatório de testes no terminal, execute um dos comandos a seguir:
 	1.  ```
 		./node_modules/.bin/cypress run --spec 'cypress/integration/lista_cypress/**/'
