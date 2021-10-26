@@ -12,6 +12,18 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
  <a href="https://github.com/GabrielPivoto">Gabriel Pivoto Ambrósio</a> 
 </p>
 
+#
+
+## Sumário
+<p align="center">
+ <a href="## Testes realizados">Testes realizados</a> •
+ <a href="## Pré-requitos">Pré-Requisitos</a> •
+ <a href="## Como executar">Como executar</a> •
+ <a href="## Relatório de testes">Relatório de testes</a> •
+</p>
+
+#
+
 ## Testes realizados :pencil:  
 * Verificação de idade correta;
 * Verificação de idade incorreta;
@@ -20,31 +32,45 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 * Teste da calculadora de habilidades do personagem;
 * Acesso ao vídeo de história do jogo.
 
+#
+
 ## Pré-requitos :white_check_mark: 
 * Instalar o [Nodejs](https://nodejs.org/en/)
+
+#
 
 ## Como executar :rocket: 
 * Clone este repositório na sua máquina;
 * Abra no seu editor a pasta **lista_pratica**;
 * Instalar o Cypress pela linha de comando:
-```
-npm install cypress
-```
-* Use o seguinte comando para abrir o Cypress e rodar os testes:
-```
-./node_modules/.bin/cypress open
-```
+	```
+	npm install cypress
+	```
+* Para abrir o Cypress e rodar os testes, execute um dos comandos a seguir:
+	1. ```
+		./node_modules/.bin/cypress open
+		```
+	2. ```
+		npx cypress open
+		```
+#
 
 ## Relatório de testes :clipboard:
-* Para exibir o relatório de testes no terminal, execute o seguinte comando:
-```
-./node_modules/.bin/cypress run --spec 'cypress/integration/lista_cypress/**/'
-```
-* Para gerar o relatório pelo Mochawesome, instale a dependência pelo comando:
-```
-npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
-```
-* Em seguida, execute o seguinte comando para criar o relatório html:
-```
-npx marge mochawesome.json
-```
+1. Para exibir o relatório de testes no terminal, execute um dos comandos a seguir:
+	1.  ```
+		./node_modules/.bin/cypress run --spec 'cypress/integration/lista_cypress/**/'
+		```
+	2. ```
+		npx cypress run --spec 'cypress/integration/lista_cypress/**/'
+		```
+
+2. Para gerar o relatório pelo Mochawesome:
+	* Instale a dependência pelo comando:
+		```
+		npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator
+		```
+	* Em seguida, execute o seguinte comando para criar o relatório html:
+		```
+		npx marge mochawesome.json
+		```
+#
