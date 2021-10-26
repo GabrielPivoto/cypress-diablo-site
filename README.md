@@ -16,10 +16,10 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 
 ## Sumário
 <p align="center">
- <a href="## Testes realizados">Testes realizados</a> •
- <a href="## Pré-requitos">Pré-Requisitos</a> •
- <a href="## Como executar">Como executar</a> •
- <a href="## Relatório de testes">Relatório de testes</a> •
+ <a href="## Testes realizados :pencil:">Testes realizados</a> •
+ <a href="## Pré-requitos :white_check_mark:">Pré-Requisitos</a> •
+ <a href="## Como executar :rocket:">Como executar</a> •
+ <a href="## Relatório de testes :clipboard:">Relatório de testes</a> •
 </p>
 
 #
