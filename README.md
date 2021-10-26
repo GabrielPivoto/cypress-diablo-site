@@ -15,7 +15,10 @@ Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.co
 #
 
 ## Sumário
-[Testes realizados](#Testes-realizados) • [Pré-Requisitos](#Pré-requisitos) • [Como executar](#Como-executar) • [Relatório de testes](#Relatórios)
+* [Testes realizados](#Testes-realizados)
+* [Pré-Requisitos](#Pré-requisitos)
+* [Como executar](#Como-executar)
+* [Relatório de testes](#Relatórios)
 
 #
 
