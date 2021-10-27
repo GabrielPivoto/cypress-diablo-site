@@ -50,7 +50,7 @@ describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () =
          
     })
 
-    it('Caso de teste: Verificar se o vídeo da história é disponibilizado', () => {
+    it('Caso de teste: Verificar se o vídeo da história foi disponibilizado', () => {
         cy.visit('https://us.diablo3.com/pt-br/');
         cy.get('.menu-game > a > span').click();
         cy.get('.game-index-callout').click();
