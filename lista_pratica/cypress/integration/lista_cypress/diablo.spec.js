@@ -60,7 +60,6 @@ describe('Cenário de teste: Testar as funcionalidades do site Diablo III', () =
         cy.get('.button-right').click();
         cy.get('#video-play').click();
         cy.get('#video-play').should('exist');
-        
     })
 
 })
