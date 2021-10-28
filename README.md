@@ -71,7 +71,7 @@ Casos de Teste:
         cy.get('#templar > .tiers > .tier-3 > .button-7 > .d3-icon > .frame').click();
         cy.get('#templar > .meta-info > .tip > .required-level').should('contain.text',20);
 		```
-	6. Verificar se o vídeo da história é disponibilidade:  
+	6. Verificar se o vídeo da história é disponibilizado:  
 		Para validar esse teste inicialmente temos que acessar a página inicial e informar a idade(tem que ser maior que 18 anos). Em seguida clickamos no botão "Guia" e na página seguinte clickamos no botão "O que é diablo III?". Na nova página que será aberto verificamos se existe o elemento onde contém o vídeo. Veja que o ```should``` apresenta vários parâmetros que podem ser utilizados, vai depender apenas da aplicação. Como bônus colocamos o vídeo para rodar. kkkk
 		```
 		cy.visit('https://us.diablo3.com/pt-br/');
