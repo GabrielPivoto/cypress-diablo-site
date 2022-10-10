@@ -1,7 +1,7 @@
 <img align="right" width="250" height="194" src="https://www.seekpng.com/png/full/140-1404364_diablo-3-logo-png.png">
 
 # ListaCypress
-Projeto desenvolvido para testar o site do jogo [Diablo 3](https://us.diablo3.com/pt-br/)
+Projeto desenvolvido para testar a UI do site do jogo [Diablo 3](https://us.diablo3.com/pt-br/)
 
 <h4 align="center"> 
 	Autores :pencil2:
