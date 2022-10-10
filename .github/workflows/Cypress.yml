@@ -26,6 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        cd cypress_testes
+        cd lista_pratica
         npm install
-        ./node_modules/.bin/cypress run --spec 'cypress/integration/aula_inatel/**/'
+        npx cypress run
